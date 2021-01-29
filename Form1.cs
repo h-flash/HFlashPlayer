@@ -149,26 +149,7 @@ namespace HFlashPlayer
 
 		private void Open(string url)
 		{
-			//Process p = Process.GetProcessesByName("flashplayer").FirstOrDefault();
-			//if (p == null)
-			//{
-			var p = Process.Start(System.IO.Path.Combine(Application.StartupPath, "flashplayer.exe"));
-			p.WaitForInputIdle();
-			//}
-			IntPtr h = p.MainWindowHandle;
-			SendKeys.SendWait("^(o)");
-			var o = Clipboard.GetText();
-			Clipboard.SetText(url);
-			SendKeys.SendWait("^(v)");
-			SendKeys.SendWait("{enter}");
-			if (!String.IsNullOrEmpty(o))
-			{
-				Clipboard.SetText(o);
-			}
-			else {
-				Clipboard.Clear();
-			}
-
+			Process.Start(System.IO.Path.Combine(Application.StartupPath, $"flashplayer.exe"), url);
 		}
 
 	}
