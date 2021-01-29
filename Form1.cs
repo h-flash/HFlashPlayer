@@ -149,7 +149,8 @@ namespace HFlashPlayer
 
 		private void Open(string url)
 		{
-			Process.Start(System.IO.Path.Combine(Application.StartupPath, $"flashplayer.exe"), url);
+			var p = Process.Start(System.IO.Path.Combine(Application.StartupPath, "flashplayer.exe"), url);
+			p.WaitForInputIdle();
 		}
 
 	}
