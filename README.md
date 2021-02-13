@@ -13,7 +13,7 @@ A handler for automatically launch offline Flash player from a custom scheme url
 4. open a flash page on h-flash, click the "CLICK TO PLAY" link.
 
 
-##How to use for webmaster:
+## How to use for webmaster:
 
 1.(optional) Edit Scheme property in Form1.cs for your custom scheme, then rebuild.
 2.  Combine scheme header with base64 encoded swf full path  as a launch url.
