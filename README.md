@@ -15,9 +15,9 @@ A handler for automatically launch offline Flash player from a custom scheme url
 
 ## How to use for webmaster:
 
-1.(optional) Edit Scheme property in Form1.cs for your custom scheme, then rebuild.
-2.  Combine scheme header with base64 encoded swf full path  as a launch url.
-example: var url = "hflash://" + base64encode(swfpath);
+1. (optional) Edit Scheme property in Form1.cs for your custom scheme, then rebuild.
+2. Combine scheme header with base64 encoded swf full path  as a launch url.
+example: var url = "hflash://" + base64encode("http://yoursite.com/"+swfpath);
 
 hints for webmaster:
 * swfpath need not urlencode.
