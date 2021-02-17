@@ -12,6 +12,14 @@ A handler for automatically launch offline Flash player from a custom scheme url
 3. run HFlashPlayer.exe one time, accept user admin control pop out to update registry.
 4. open a flash page on h-flash, click the "CLICK TO PLAY" link.
 
+## How to use on all sites:
+
+* we need a user script to add buttons on flash plugin objects.
+
+1. install user script browser extension Tampermonkey.  
+   chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo  
+   firefox: https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/   
+2. click Tampermonkey icon -> Dashboard -> Utilities -> Install from URL, copy and paste this url to install: https://raw.githubusercontent.com/h-flash/HFlashPlayer/main/ScriptInjector.js
 
 ## How to use for webmaster:
 
