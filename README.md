@@ -19,7 +19,7 @@ A handler for automatically launch offline Flash player from a custom scheme url
 1. install user script browser extension Tampermonkey.  
    chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo  
    firefox: https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/   
-2. click Tampermonkey icon -> Dashboard -> Utilities -> Install from URL, copy and paste this url to install: https://raw.githubusercontent.com/h-flash/HFlashPlayer/main/ScriptInjector.js
+2. click Tampermonkey icon -> Dashboard -> Utilities -> Install from URL, copy and paste this url to install: https://raw.githubusercontent.com/h-flash/HFlashPlayer/main/ScriptInjector.user.js
 
 ## How to use for webmaster:
 
