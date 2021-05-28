@@ -80,7 +80,7 @@
 
 			link.href = scheme + btoa(swfpath);
 			link.target = target;
-			link.cssText = "color:#000;font-size:14px";
+			link.style.cssText = "color:#000;font-size:14px";
 			link.innerHTML = 'Open by <span style="color:#FE719C">HFlashPlayer</span> ';
 			close.innerHTML = " [X]";
 			close.style.cursor = "pointer";
