@@ -1,11 +1,11 @@
-﻿
-
-// ==UserScript==
-// @name     HFlashPlayer Script Injector
-// @author   h-flash
-// @version  0.1
-// @include  *
-// @grant    none
+﻿// ==UserScript==
+// @name         HFlashPlayer Script Injector
+// @author       h-flash
+// @version      0.1.1
+// @include      *
+// @grant        none
+// @updateURL    https://raw.githubusercontent.com/h-flash/HFlashPlayer/main/ScriptInjector.user.js
+// @downloadURL  https://raw.githubusercontent.com/h-flash/HFlashPlayer/main/ScriptInjector.user.js
 // ==/UserScript==
 
 (function (doc) {
