@@ -31,3 +31,22 @@ hints for webmaster:
 * swfpath need not urlencode.
 * modern browsers has built in base64encode function, just: btoa(swfpath) .
 * if you open the launch url in a new window, it will leave a blank window, if not, the web page will stop functioning after launch. h-flash's solution: open in a hidden iframe.
+
+## Issue self check list:
+<pre>
+When you click a "CLICK TO PLAY" or "HFlashPlayer" button:
+Q1. nothing happened.
+	A11. your HFlashPlayer was not registered correctly. please run HFlashPlayer.exe to register.
+		Q111. nothing happens when I run HFlashPlayer.exe
+			A111. you need .net framework 4.0 to run this program.
+	A12. your web browser or antivirus blocked the request, check your browser's application setting or try in another web browser.
+
+Q2. a blank window and it's keeps blank forever.
+	A21. click file menu, you will see a url on position 1, carefully type and open it in your web browser to test the file is reachable.
+		Q211. I saw a browser check or a captcha, or I saw the check a while ago.
+			A211: your network was marked as unsafe by the firewall, you need to download and play offline, or use a proxy.
+		Q212. I can download the file but I'm using a proxy.
+			A212: you need to proxy the flashplayer.exe also.                                   
+</pre>
+
+if your situation not in the list please submit a new issue.
